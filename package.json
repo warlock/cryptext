@@ -1,0 +1,12 @@
+{
+  "name": "cryptext",
+  "version": "1.0.0",
+  "description": "Easy encrypt/decrypt text with password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["encrypt", "decrypt", "text", "string", "password", "code", "encoding", "passs"],
+  "author": "Josep Subils <js@js.gl>",
+  "license": "MIT"
+}

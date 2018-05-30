@@ -1,5 +1,5 @@
-# boolean-search
-Boolean Query Search
+# CrypText
+Encrypt any text file with a password
 
 ### Load library:
 ```js

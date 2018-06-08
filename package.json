@@ -1,6 +1,6 @@
 {
   "name": "cryptext",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Easy encrypt and decrypt any text or file with a password",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

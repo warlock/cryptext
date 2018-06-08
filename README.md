@@ -1,5 +1,5 @@
 # CrypText
-Encrypt any text file with a password
+Encrypt and decrypt any text or file with a password
 
 ### Load library:
 ```js

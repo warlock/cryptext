@@ -1,12 +1,20 @@
 {
   "name": "cryptext",
-  "version": "1.0.1",
-  "description": "Easy encrypt/decrypt text with password",
+  "version": "1.0.2",
+  "description": "Easy encrypt and decrypt any text or file with a password",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["encrypt", "decrypt", "text", "string", "password", "code", "encoding", "pass", "lock","file"],
   "author": "Josep Subils <js@js.gl>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warlock/cryptext/issues"
+  },
+  "homepage": "https://github.com/warlock/cryptext",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warlock/cryptext.git"
+  }
 }

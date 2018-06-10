@@ -1,8 +1,7 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var crypto_1 = require("crypto");
 var algorithm = 'aes192';
-exports.default = {
+module.exports = {
     encrypt: function (text, password) {
         var cipher = crypto_1.createCipher(algorithm, password);
         var crypted = cipher.update(text, 'utf8', 'hex');

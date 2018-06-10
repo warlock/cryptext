@@ -1,7 +1,7 @@
 import { createCipher, createDecipher } from 'crypto'
 const algorithm = 'aes192'
 
-export default {
+export = {
   encrypt(text : string, password : String) : String {
     const cipher = createCipher(algorithm, password)
     var crypted = cipher.update(text, 'utf8', 'hex')
@@ -15,4 +15,3 @@ export default {
     return dec
   }
 }
-

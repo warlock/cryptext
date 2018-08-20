@@ -8,7 +8,7 @@ export = {
     crypted += cipher.final('hex')
     return crypted.toString()
   },
-  decrypt(text : string, password : string) : string {
+  decrypt(text : any, password : string) : string {
     const decipher = createDecipher(algorithm, password)
     var dec = decipher.update(text, 'hex', 'utf8')
     dec += decipher.final('utf8')

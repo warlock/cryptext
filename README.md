@@ -3,17 +3,17 @@ Encrypt and decrypt any text or file with a password
 
 ### Load library:
 ```js
-const cryptext = require('cryptext')
+import { encrypt, decrypt } from 'cryptext'
 ```
 
 ### Encrypt:
 ```js
-const text_encrypted = cryptext.encrypt('Hello world', '123')
+const text_encrypted = encrypt('Hello world', 'abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyz')
 ```
 
 ### Decrypt:
 ```js
-const text_decrypted = cryptext.encrypt(text_encrypted, '123')
+const text_decrypted = encrypt(text_encrypted, 'abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyz')
 console.log(text_decrypted)
 ```
 

@@ -31,7 +31,7 @@
     "url": "git+https://github.com/warlock/cryptext.git"
   },
   "devDependencies": {
-    "@types/node": "^10.3.2",
+    "@types/node": "^10.7.1",
     "typescript": "^2.9.1"
   }
 }

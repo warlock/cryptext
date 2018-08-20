@@ -6,12 +6,12 @@ module.exports = {
         var cipher = crypto_1.createCipher(algorithm, password);
         var crypted = cipher.update(text, 'utf8', 'hex');
         crypted += cipher.final('hex');
-        return crypted;
+        return crypted.toString();
     },
     decrypt: function (text, password) {
         var decipher = crypto_1.createDecipher(algorithm, password);
         var dec = decipher.update(text, 'hex', 'utf8');
         dec += decipher.final('utf8');
-        return dec;
+        return dec.toString();
     }
 };
